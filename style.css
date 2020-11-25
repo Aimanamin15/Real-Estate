@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    line-height: 1.1;
+    overflow-x: hidden;
+   font-size: 1.7rem;
+
+}
+html{
+    font-size: 62.5%;
+}
+
+ 
+.primary{
+    color: deepskyblue;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(141, 119, 0.7,0.5);
+    color: #eeeeee;
+    padding: 2rem;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#navbar ul li a{
+    padding: 1.7rem;
+    margin: 0.5rem;
+  
+}
+a{
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color:darkblue;
+    border-radius: 00.5rem;
+   
+}
+.container{
+    
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+}
+#head{
+    background: url('./img2.jfif') no-repeat center center/cover;
+    height: 93vh;
+    text-align: center;
+}
+.head-content{
+    display: flex;
+    flex-direction: column;
+    height: 93vh;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.7;
+}
+.logo{
+    font-size: 2rem;
+}
+.l1{
+    font-size:5rem;
+    line-height: 1.5;
+}
+.btn{
+    background-color: rgba(111, 145, 111, 0.9);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: darkviolet;
+    border: none;
+}
+.p1{
+    font-size: 2rem;
+    font-style: oblique;
+   
+}
+
+.btn:hover{
+    background-color: dodgerblue;
+}
+
+#what{
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);    padding-bottom: 12rem;
+    padding-top: 2rem;
+}
+#what.back{
+    background-color: gray;
+    color:black;
+}
+.text{
+    text-align: center;
+    font-size: 3rem;
+}
+.boxes{
+    display: flex;
+    text-align:center;
+}
+.box{
+    padding: 2rem;
+    flex: 1;
+    
+}
+#what .boxes i{
+    background-color: deepskyblue ;
+    padding: 3rem;
+    border-radius: 50%;
+    margin: 2rem;
+}
+#what .boxes h3{
+    font-size:2.5rem;
+    margin-bottom: 2rem;
+}
+#who{
+    
+    display: flex;
+    height: 70vh;
+    margin-top: -12rem;
+}
+#who.back2{
+    background-color: rgba(72, 33, 180, 0.5);
+    color:black;
+}
+#who div{
+    flex: 1;
+}
+#who div:first-child{
+    flex: 2;
+}
+#who .img{
+    background: url('./people.jfif')no-repeat center center/cover;
+    margin-top: 4.3rem;    
+}
+#who .con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    line-height: 2rem;
+}
+#who .content{
+    height: 70vh;
+    margin-bottom: -45rem;
+  
+}
+#who h1{
+    margin-bottom: 2rem;
+}
+#who p{
+    margin-bottom: 2rem;
+}
+#who h3{
+    margin-bottom: 2rem;
+}
+#clients{
+    padding: 2rem;
+}
+#clients .image{
+    display: flex;
+    align-items: center;
+}
+#clients .image div{
+    flex: 1;
+  
+}
+#clients .image img{
+    height: 15rem;
+    border-radius: 50%;
+   
+}
+input{
+    
+    size: 2rem;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 2px;
+
+}
+.contain{
+    align-items: center;
+    position: relative;
+    padding: 20%;
+    text-align: center;
+    text-justify: auto;
+    color:white;
+}
+.bt{
+    background-color: lightseagreen;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+.bt:hover{
+    background-color: aqua;
+    color: blue;
+}
+#cont{
+    background:url(./img3.jfif) no-repeat center center/cover;
+            height: 100%;
+            width: 60%;
+            margin: 0 auto ;
+            font-style: italic;
+            font-size: 30px;
+            font-weight: bold;
+            border-bottom: olive;
+            opacity: 2rem;
+           align-items: center;
+           padding: 20px;
+}
+#cont input{
+    display: inline;
+    float: none;
+    size: 40px;
+    border-radius: 40%;
+    width: 25%;
+}
+#contact{
+    display: flex;
+}
+#contact .cont,
+.map{
+    flex: 1;
+}
+.map{
+    height: 100%;
+}
+iframe{
+    height: 100vh;
+}
+footer{
+    
+    background: darkslategrey;
+    color: honeydew;
+    text-align: center;
+    padding: 1rem;
+   font-size: 1rem;
+}
